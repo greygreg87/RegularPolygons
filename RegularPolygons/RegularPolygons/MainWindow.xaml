@@ -1,0 +1,65 @@
+﻿<Window x:Class="RegularPolygons.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegularPolygons"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Podaj długośc boku:"
+            TextAlignment="Center" Margin="10"
+            IsEnabled="False" VerticalAlignment="Center" FontSize="20"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Podaj rodzaj figury:"
+            TextAlignment="Center" Margin="10"
+            IsEnabled="False" VerticalAlignment="Center" FontSize="20"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Pole wielokąta:"
+            TextAlignment="Center" Margin="10"
+            IsEnabled="False" VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" />
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Promień okręgu opisanego:"
+            TextAlignment="Center" Margin="10"
+            IsEnabled="False" VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" />
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Promień okręgu wpisanego:"
+            TextAlignment="Center" Margin="10"
+            IsEnabled="False" VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" />
+        <TextBox Grid.Row="0" Grid.Column="1"
+            TextAlignment="Center" VerticalAlignment="Center" Name="DlugoscBoku" Margin="5"
+            BorderBrush="Gray" IsEnabled="True" FontSize="20" />
+        <TextBox Grid.Row="2" Grid.Column="2"
+            TextAlignment="Center" VerticalAlignment="Center" Name="Pole" Margin="5"
+            BorderBrush="Gray" IsEnabled="False" FontSize="20" />
+        <TextBox Grid.Row="3" Grid.Column="2"
+            TextAlignment="Center" VerticalAlignment="Center" Name="OkragOpisany" Margin="5"
+            BorderBrush="Gray" IsEnabled="False" FontSize="20" />
+        <TextBox Grid.Row="4" Grid.Column="2"
+            TextAlignment="Center" VerticalAlignment="Center" Name="OkragWpisany" Margin="5"
+            BorderBrush="Gray" IsEnabled="False" FontSize="20" />
+        <Button Content="Wyczyść" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center"
+            VerticalAlignment="Center" Width="75"  Height="35" Click="WyczyscButton_Click" />
+        <Button Content="Oblicz" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center"
+            VerticalAlignment="Center" Width="75"  Height="35" Click="ObliczButton_Click" />
+        <ComboBox Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Width="120"
+                   Name="Figura">
+            <ListBoxItem Content="Trójkąt" />
+            <ListBoxItem Content="Kwadrat" />
+            <ListBoxItem Content="Pięciokąt" />
+            <ListBoxItem Content="Sześciokąt" />
+            <ListBoxItem Content="Ośmiokąt" />
+            <ListBoxItem Content="Dziesięciokąt" />
+            <ListBoxItem Content="Dwunastokąt" />
+        </ComboBox>
+    </Grid>
+</Window>
+
