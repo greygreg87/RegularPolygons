@@ -13,3 +13,18 @@ C:\Users\Grzegorz\Desktop 3\RegularPolygons\RegularPolygons\obj\Debug\RegularPol
 C:\Users\Grzegorz\Desktop 3\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.csproj.CoreCompileInputs.cache
 C:\Users\Grzegorz\Desktop 3\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.exe
 C:\Users\Grzegorz\Desktop 3\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.pdb
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\bin\Debug\RegularPolygons.exe.config
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\bin\Debug\RegularPolygons.exe
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\bin\Debug\RegularPolygons.pdb
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.csprojResolveAssemblyReference.cache
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\MainWindow.g.cs
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\App.g.cs
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons_MarkupCompile.cache
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons_MarkupCompile.lref
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\MainWindow.baml
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.g.resources
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.Properties.Resources.resources
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.csproj.GenerateResource.Cache
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.csproj.CoreCompileInputs.cache
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.exe
+C:\Users\Grzegorz\Repozytorium\Wielokaty\RegularPolygons\RegularPolygons\obj\Debug\RegularPolygons.pdb

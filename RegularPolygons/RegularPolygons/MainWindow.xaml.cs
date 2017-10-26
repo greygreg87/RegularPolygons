@@ -45,7 +45,7 @@ namespace RegularPolygons
             {
                 double a = double.Parse(DlugoscBoku.Text);
 
-                if (a < 0)
+                if (a <= 0)
                 {
                     MessageBox.Show("Podaj wartośc większą niż 0!");
                     return;
